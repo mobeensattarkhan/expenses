@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* App.css */
+.app-container {
+    display: flex;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .menu {
+    width: 200px;
+    background-color: #2f3b52;
+    color: white;
+    padding: 20px;
+  }
+  
+  .menu-item {
+    margin: 10px 0;
+  }
+  
+  .menu-item.active {
+    font-weight: bold;
+  }
+  
+  .menu-item a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .menu-item a:hover {
+    color: #4caf50;
+  }
+  

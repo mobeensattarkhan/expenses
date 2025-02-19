@@ -1,0 +1,85 @@
+/* Use scoped styles by default */
+
+.authPage {
+  background: black;
+  background-image: url(../../../public/background.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.authContainer {
+  width: 400px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1); /* Transparent white */
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Dark shadow for depth */
+  backdrop-filter: blur(15px); /* Frosted glass effect */
+  -webkit-backdrop-filter: blur(15px); /* Frosted glass effect for Safari */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Slight white border */
+}
+
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #00dac6;
+  margin-bottom: 20px;
+}
+
+.authInput {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  caret-color: #00ffa3;
+}
+.authInput option{
+  background:rgba(94, 91, 91, 0.92);;
+}
+
+.authInput::placeholder {
+  color: #aaa;
+}
+
+.authButton {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background: #00dac6;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.authButton:hover {
+  background: #04b19f;
+}
+
+.authToggle {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #00dac6;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.authToggle:hover {
+  color: #00cc80;
+}

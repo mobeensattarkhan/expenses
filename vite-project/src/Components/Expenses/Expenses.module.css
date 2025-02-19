@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  height: auto;
+  width: 100%;
+  height: 100vh;
+  margin-left: 15%;
+}
+
+.expensesContent {
+  flex-grow: 1; /* Takes the remaining space after sidebar */
+  padding: 20px;
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  color: #fff;
+}
+
+.headerActions button {
+  margin-left: 10px;
+  background-color: #00DAC6;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.headerActions button:hover {
+  background-color: #555;
+}
+
+.expensesTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.expensesTable th,
+.expensesTable td {
+  padding: 12px;
+  text-align: left;
+  color: #fff;
+}
+.inputBox {
+ display: flex;
+ gap: 10px;
+}
+.expensesTable th {
+  background-color: #333;
+}
+ .report-date{
+  padding-top:5px ;
+
+}
+.submitted{
+  background: #5A0CE2;
+  padding: 10px 40px;
+  border-radius: 20px;
+}
+.notSubmitted{
+  background: #8B1F5E;
+  padding: 10px 25px;
+  border-radius: 20px;
+}

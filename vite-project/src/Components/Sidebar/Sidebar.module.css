@@ -1,0 +1,88 @@
+.sidebar {
+  background-color: #121212; /* Matches the dark background */
+  color: #fff; /* Text color */
+  height: 100vh; /* Full viewport height */
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+.profile {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.profileImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /* Circular profile image */
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.profileName {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ccc; /* Lighter shade for the name */
+}
+
+.menu {
+  width: 100%;
+}
+
+.menuList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: #ccc;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+/* Active and hover menu item styles */
+.menuItemActive, .menuItem:hover {
+  background-color: #2a2a2a;
+  color: #00ffcc;
+  border-radius: 8px;
+}
+
+/* Icon spacing */
+.icon {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+/* Link styling */
+.menuLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.logoImg {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logoText {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00ffcc; /* Logo color */
+}
+
+/* Active link styling */
+.menuLink.active {
+  background-color: #333; /* Highlight color for active menu */
+  border-radius: 5px;
+}
+

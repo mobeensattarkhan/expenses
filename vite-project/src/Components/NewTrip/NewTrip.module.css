@@ -1,0 +1,121 @@
+.container {
+  background: #1d1d1d;
+  /* background: red; */
+  padding: 20px;
+  border-radius: 10px;
+  width: 85%; /* Adjusted width to match other components */
+  height: auto; /* Let the height adjust based on content */
+  max-height: 100vh; /* Prevent the modal from exceeding viewport height */
+  overflow-y: auto; /* Add vertical scrolling if content overflows */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  /* Modal styling */
+  position: absolute;
+  top: 50%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 70px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+.subSection {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.inputGroup label {
+  font-size: 14px;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+  background: #333;
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+.radioGroup {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.radioGroup label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.draftButton {
+  background: #444;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.saveButton {
+  background: #1db954;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
